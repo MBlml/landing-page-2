@@ -1,0 +1,5 @@
+![Captura desde 2024-10-02 11-44-34](https://github.com/user-attachments/assets/5ab88721-7beb-4256-954a-7e40831d5e57)
+![Captura desde 2024-10-02 11-44-45](https://github.com/user-attachments/assets/105d00ea-6356-4a7f-8382-be169bd9f58b)
+![Captura desde 2024-10-02 11-44-56](https://github.com/user-attachments/assets/408e5c2d-2dde-481c-869a-6adfd2a3790c)
+![Captura desde 2024-10-02 11-45-03](https://github.com/user-attachments/assets/bd0ca0db-7d78-4289-a5c6-ab1ea69d854d)
+![Captura desde 2024-10-02 11-45-12](https://github.com/user-attachments/assets/203b62fd-979b-4025-bab5-205994dcd97b)
