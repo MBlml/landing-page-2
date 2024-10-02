@@ -1,0 +1,141 @@
+/* Estilo para mantener el cabezal estático en desktop y ocultarlo en móviles */
+#main-header {
+  transition: top 0.3s;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+a {
+  color: #3d627c;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 120%;
+}
+
+a:hover {
+  color: #96713c;
+  text-decoration: underline;
+}
+
+.btns {
+  margin-bottom: -360px;
+}
+
+.img-card {
+  border-radius: 30px;
+  height: 88%;
+  width: 100%;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.my-card {
+  margin: 0 10px;
+}
+
+.btn-card {
+  color: white;
+  background-color: #bfa685;
+  border: solid 3px #96713c;
+  margin-top: -100%;
+  font-size: 115%;
+  padding: 10px 50px;
+}
+
+button {
+  background-color: transparent;
+  padding: 20px 50px;
+  border: solid white 3px;
+  border-radius: 100px;
+  color: white;
+  font-weight: bold;
+  transition: .5s;
+}
+
+button:hover {
+  color: #96713c;
+  background-color: white;
+}
+
+.logo {
+  width: 40%;
+}
+
+.bi {
+  font-size: 32px;
+  margin: -22px;
+}
+
+.icons {
+  margin-right: -80px;
+  margin-top: -10px;
+  margin-left: 30px;
+}
+
+.bl3div1 {
+  text-align: left;
+  color: #3d627c;
+  margin-left: -60px;
+  font-size: 20px;
+  width: 55%;
+  margin-right: 10%;
+  margin-top: 8%;
+}
+
+iframe {
+  margin-top: 15%;
+  border-radius: 25px;
+}
+
+.img-galery {
+  width: 24%;
+  border-radius: 10%;
+  margin: 4px;
+}
+
+.img-galery:hover {
+  transform: scale(105%);
+  transition: .9s;
+}
+
+.galery {
+  width: 170vh;
+  margin-top: 60px;
+}
+
+#block1 {
+  background-image: url("/TerrazaCielo/images/wallpaper.avif");
+  background-position: center;
+  height: 75vh;
+  background-size: 100%;
+}
+
+#block2 {
+  padding-top: 150px; 
+}
+
+#block3 {
+  background-color: #e8ded1;
+
+}
+
+#block4 {
+  color: #3d627c;
+}
+
+/* Estilo para los bloques */
+section {
+  text-align: center;
+  padding: 50px 0;
+}
+
+section h2 {
+  font-size: 3rem;
+}
+
+section p {
+  font-size: 1.25rem;
+}
