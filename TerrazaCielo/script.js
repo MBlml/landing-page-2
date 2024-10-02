@@ -22,3 +22,26 @@ document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
     }
   });
 });
+
+$(document).ready(function() {
+  $("#miFormulario").submit(function(e) {
+      e.preventDefault(); // Evita la recarga de la página
+      var nombre = $("#nombre").val();
+      var email = $("#email").val();
+
+      $.ajax({
+          url: "procesar.php", // Archivo PHP para procesar el formulario
+          type: "POST",
+          data: { nombre: nombre, email: email },
+          success: function(response) {
+              // Muestra la respuesta en un alert
+              alert("Información enviada:\n" + response);
+          },
+          error: function() {
+              alert("Hubo un error al enviar el formulario.");
+          }
+      });
+  });
+});
+
+
