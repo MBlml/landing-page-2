@@ -6,6 +6,7 @@ window.addEventListener("scroll", function () {
   if (scrollTop > 50) {
     header.style.backgroundColor = "white"; // Cambia a un color oscuro (puedes modificarlo)
     header.style.transition = "background-color 0.3s"; // Transición suave
+    header.style.height = "60px";
   } else {
     header.style.backgroundColor = "transparent"; // Vuelve al color transparente o original
   }
