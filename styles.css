@@ -1,3 +1,359 @@
+@media (max-width: 480px) {
+  .navbar-toggler {
+    position: relative;
+    top: -40px;
+    left: 280px;
+    border: none;
+    margin-bottom: -10px;
+    padding-bottom: -10px;
+  }
+
+  .navbar-collapse {
+    background-color: white;
+    width: 100vh;
+    margin: -15px;
+    margin-top: -20px;
+  }
+
+  .logo {
+    width: 25%;
+  }
+
+  #block1 {
+    background-image: url("/images/wallpaper.webp");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 190%;
+    height: 38vh;
+  }
+
+  #block1 button {
+    margin: 5px;
+    font-size: 15px;
+    padding: 5px 30px;
+  }
+
+  .btns {
+    margin-top: 190px;
+  }
+
+  h1 {
+    color: #3d627c;
+    font-weight: bold;
+  }
+
+  #block2 {
+    padding-top: 100px; 
+    color: #96713c;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .my-card {
+    margin: 10px 0; 
+  }
+
+  .btn-card {
+    font-size: 15px;
+    background-color: #bfa685;
+    border: solid 3px #96713c;
+    padding: 5px 30px;
+    color: white;
+    margin-top: -100%;
+  }
+
+  .cont {
+    display: flex;
+    flex-direction: column;
+    background-color: #e8ded1;
+    height: 100vh;
+  }
+
+  .bl3div1 {
+    text-align: center;
+    color: #3d627c;
+    margin-left: 0px;
+    font-size: 20px;
+    margin-right: 0;
+  }
+
+  .bl3div1 p{
+    font-size: 15px;
+  }
+
+  iframe {
+    margin-bottom: 10%;
+    border-radius: 25px;
+    height: 340px;
+    width: 340px;
+  }
+
+  #block4 {
+    padding-top: 50px; 
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .galery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+
+  .img-galery {
+    width: 90%;
+    border-radius: 10%;
+    margin: 5px;
+  }
+
+  #block5 {
+    margin-top: 0;
+    background-color: #3d627c;
+  }
+
+  #footer {
+    display: flex;
+    flex-direction: column;
+    columns: red;
+  }
+
+  .map {
+    width: 95%; 
+    height: 250px;
+    margin: 15px 10px; 
+    border-radius: 0;
+  }
+
+  .btn-footer {
+    color: white;
+    background-color: #bfa685;
+    border: solid 3px #96713c;
+    font-size: 115%;
+    padding: 5px 50px;
+    align-items: center;
+  }
+
+  .logo2 {
+    margin: 10px 0;
+    width: 40%;
+  }
+  
+}
+
+
+
+@media (min-width: 481px) {
+  #main-header {
+    transition: top 0.3s;
+  }
+  
+  a {
+    color: #3d627c;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 120%;
+  }
+  
+  a:hover {
+    color: #96713c;
+    text-decoration: underline;
+  }
+  
+  .socialicon {
+    color: red;
+  }
+  
+  .btns {
+    margin-bottom: -360px;
+  }
+  
+  .img-card {
+    border-radius: 30px;
+    height: 88%;
+    width: 100%;
+  }
+  
+  .cards {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .my-card {
+    margin: 0 10px;
+  }
+  
+  .btn-card {
+    color: white;
+    background-color: #bfa685;
+    border: solid 3px #96713c;
+    margin-top: -100%;
+    font-size: 115%;
+    padding: 10px 50px;
+  }
+  
+  .btn-galery {
+    color: white;
+    background-color: #bfa685;
+    border: solid 3px #96713c;
+    font-size: 115%;
+    padding: 10px 50px;
+    margin-bottom: -50px;
+    margin-top: 40px;
+  }
+  
+  button {
+    background-color: transparent;
+    padding: 20px 50px;
+    border: solid white 3px;
+    border-radius: 100px;
+    color: white;
+    font-weight: bold;
+    transition: .5s;
+  }
+  
+  button:hover {
+    color: #96713c;
+    background-color: white;
+  }
+  
+  .btn-footer {
+    color: white;
+    background-color: #bfa685;
+    border: solid 3px #96713c;
+    font-size: 115%;
+    padding: 10px 50px;
+    margin-bottom: -50px;
+    margin-top: 10px;
+  }
+  
+  .logo {
+    width: 40%;
+  }
+  
+  .logo2 {
+    margin: 0px 40px 0 -80px;
+  }
+  
+  .bi {
+    font-size: 32px;
+    margin: -22px;
+  }
+  
+  .icons {
+    margin-right: -80px;
+    margin-top: -10px;
+    margin-left: 30px;
+  }
+  
+  .bl3div1 {
+    text-align: left;
+    color: #3d627c;
+    margin-left: -60px;
+    font-size: 20px;
+    width: 55%;
+    margin-right: 10%;
+    margin-top: 8%;
+  }
+  
+  iframe {
+    margin-top: 15%;
+    border-radius: 25px;
+    height: 481px;
+    width: 482px;
+  }
+  
+  .img-galery {
+    width: 24%;
+    border-radius: 10%;
+    margin: 4px;
+  }
+  
+  .img-galery:hover {
+    transform: scale(105%);
+    transition: .9s;
+  }
+  
+  .galery {
+    width: 170vh;
+    padding-top: 60px;
+  }
+  
+  #block1 {
+    background-image: url("/images/wallpaper.webp");
+    background-position: center;
+    height: 75vh;
+    background-size: 100%;
+  }
+  
+  #block2 {
+    padding-top: 250px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  #block3 {
+    background-color: #e8ded1;
+    padding-top: 150px; 
+    margin-bottom: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  #block4 {
+    color: #3d627c;
+    padding-top: 160px;
+  }
+  
+  #block5 {
+    background-color: #3d627c;
+    height: 50%;
+  }
+  
+  #footer {
+    flex-direction: row;
+    display: flex;
+  }
+  
+  #footer p {
+    font-size: 15px;
+  }
+  
+  .map {
+    width: 500px;
+    margin: 0;
+    border-radius: 0;
+  }
+  
+  /* Estilo para los bloques */
+  section {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  section h2 {
+    font-size: 3rem;
+  }
+  
+  section p {
+    font-size: 1.25rem;
+  }
+}
+
+/*////////////////////////////////////*/
+
+
 #main-header {
   transition: top 0.3s;
 }
@@ -19,9 +375,9 @@ a:hover {
   color: red;
 }
 
-.btns {
+/* .btns {
   margin-bottom: -360px;
-}
+} */
 
 .img-card {
   border-radius: 30px;
@@ -29,23 +385,23 @@ a:hover {
   width: 100%;
 }
 
-.cards {
+/* .cards {
   display: flex;
   flex-direction: row;
-}
+} */
 
-.my-card {
+/* .my-card {
   margin: 0 10px;
-}
+} */
 
-.btn-card {
+/* .btn-card {
   color: white;
   background-color: #bfa685;
   border: solid 3px #96713c;
   margin-top: -100%;
   font-size: 115%;
   padding: 10px 50px;
-}
+} */
 
 .btn-galery {
   color: white;
@@ -72,7 +428,7 @@ button:hover {
   background-color: white;
 }
 
-.btn-footer {
+/* .btn-footer {
   color: white;
   background-color: #bfa685;
   border: solid 3px #96713c;
@@ -80,15 +436,15 @@ button:hover {
   padding: 10px 50px;
   margin-bottom: -50px;
   margin-top: 10px;
-}
+} */
 
-.logo {
+/* .logo {
   width: 40%;
-}
+} */
 
-.logo2 {
+/* .logo2 {
   margin: 0px 40px 0 -80px;
-}
+} */
 
 .bi {
   font-size: 32px;
@@ -101,7 +457,7 @@ button:hover {
   margin-left: 30px;
 }
 
-.bl3div1 {
+/* .bl3div1 {
   text-align: left;
   color: #3d627c;
   margin-left: -60px;
@@ -109,29 +465,29 @@ button:hover {
   width: 55%;
   margin-right: 10%;
   margin-top: 8%;
-}
+} */
 
-iframe {
+/* iframe {
   margin-top: 15%;
   border-radius: 25px;
-}
+} */
 
-.img-galery {
+/* .img-galery {
   width: 24%;
   border-radius: 10%;
   margin: 4px;
-}
+} */
 
 .img-galery:hover {
   transform: scale(105%);
   transition: .9s;
 }
 
-.galery {
+/* .galery {
   width: 170vh;
   margin-top: 60px;
-}
-
+} */
+/* 
 #block1 {
   background-image: url("/images/wallpaper.webp");
   background-position: center;
@@ -155,22 +511,22 @@ iframe {
 #block5 {
   background-color: #3d627c;
   height: 50%;
-}
+} */
 
-#footer {
+/* #footer {
   flex-direction: row;
   display: flex;
-}
+} */
 
 #footer p {
   font-size: 15px;
 }
 
-.map {
+/* .map {
   width: 500px;
   margin: 0;
   border-radius: 0;
-}
+} */
 
 /* Estilo para los bloques */
 section {
